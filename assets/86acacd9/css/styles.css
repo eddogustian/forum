@@ -1,0 +1,55 @@
+.date-view table.items tr td.button-column{
+	width: 60px;
+	padding:5px 10px;
+}
+.date-view table.items tr td.button-column a{
+	display:none;
+}
+.date-view table.items tr:hover td.button-column a{
+	display:inline;
+}
+.date-view table.items tr.even {
+	  background: none repeat scroll 0 0 #ECECEC;
+}
+.date-view table.items tr.odd {
+    background: none repeat scroll 0 0 #F8F8F8;
+}
+
+.date-view table.items tr.even td.table-day {
+	vertical-align: middle;
+    text-align:center;
+	background-color: #899905;
+    background-image: -moz-linear-gradient(#677683, #788794);
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #FFFFFF;
+	color: #CCC;
+	
+}
+.date-view table.items tr.odd td.table-day {
+	vertical-align: middle;
+    text-align:center;
+  background-color: #F5F5F5;
+    background-image: -moz-linear-gradient(#F9F9F9, #F5F5F5);
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #FFFFFF;
+} 
+.date-view table.items th.table-month{
+	color: #CCC;
+	font-size: 18px;
+}
+.date-view table.items th.table-month {
+	vertical-align: middle;
+    text-align:center;
+	background-color: #788794;
+    background-image: -moz-linear-gradient(#677683, #788794);
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #FFFFFF;
+}
+
+.date-view table.items tfoot tr td{
+	font-weight:bold;
+	font-style: italic;	
+}
